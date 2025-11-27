@@ -3,7 +3,7 @@ from google import genai
 from google.genai import types
 
 # --- Initialize Gemini client ---
-client = genai.Client(api_key="AIzaSyCjIbRIRBaE_yBzOcRq4nrl-9MYjcSl4zk")
+client = genai.Client(api_key="api_key")
 MODEL = "gemini-2.5-flash"
 
 
@@ -73,3 +73,4 @@ if __name__ == "__main__":
 #how to run
 #pip install -r requirements.txt
 #streamlit run app.py
+
